@@ -1,0 +1,19 @@
+{
+  "name": "vgesteljasper/mvc",
+  "type": "project",
+  "authors": [
+    {
+      "name": "vgesteljasper",
+      "email": "vgesteljasper@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "App\\": "App/"
+    }
+  }
+}
